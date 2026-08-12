@@ -64,7 +64,7 @@ def main():
     fignr = 1
     plt.figure(fignr, figsize=(10,10))
     plt.plot(errors)
-    plt.style.use('seaborn-whitegrid')
+    plt.style.use('seaborn-v0_8-whitegrid')
     plt.xlabel('Iteration')
     plt.ylabel(r"$(y - \hat y)$")
     plt.show()
